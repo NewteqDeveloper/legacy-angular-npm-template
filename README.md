@@ -1,27 +1,50 @@
-# NgxLocalStoragePackage
+# Angular2+ NPM Library Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This repo can be used as a base for creating NPM packages that are built with angular.
 
-## Development server
+# Usage
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To make use of this template and get started follow these steps:
 
-## Code scaffolding
+* Clone the repo
+* Navigate to the location
+* Run `ng g library my-lib-name`
+  * this will generate a new library project for you in `projects/my-lib-name`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You now have your first angular library 😊
 
-## Build
+## Creating your library
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Now that you've generated your template library code, you can navigate into `projects/my-lib-name` and make the library how you want/need to.
 
-## Running unit tests
+### IMPORTANT UPDATE
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Remember to make the changes to the `package.json` in `my-lib-name` folder, as this is what will be used for the NPM package information once published.
 
-## Running end-to-end tests
+To see an example of a `package.json` you can find one [here][package.json-example]
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Publishing To NPM
 
-## Further help
+> You need to have a npm account in order to publish to npm
+> Make sure to run `npm login` first before continuing
+> You will login with your NPM details and this will be remembered on your computer until you logout.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Once you are happy with the library and want to publish the package to NPM you'll need to do the following:
+
+* Navigate to the root directory
+* Run `ng build my-lib-name`
+  * This will generate a dist folder from the root like `dist/my-lib-name`
+* You can now navigate into `dist/my-lib-name`
+* Now run `npm publish`
+
+# Small change to make
+
+There is one small `gotcha` here that you will need to change.
+
+In the `root directory` (outside of the projects location), make sure to update the `package.json` file.
+
+Please provide your own name here for the package.json as required.
+
+This does not affect the package that you push to NPM, but simply the package information for your repo.
+
+[package.json-example]: https://gist.github.com/NewteqDeveloper/9a10a19b6c363d486aa67e2562b648a3
