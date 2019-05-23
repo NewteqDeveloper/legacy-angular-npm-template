@@ -2,6 +2,10 @@
 
 This repo can be used as a base for creating NPM packages that are built with angular.
 
+# Build tools
+
+The tools I used and recommended tools to build are [VS Code][vscode-link]
+
 # Usage
 
 To make use of this template and get started follow these steps:
@@ -48,3 +52,4 @@ Please provide your own name here for the package.json as required.
 This does not affect the package that you push to NPM, but simply the package information for your repo.
 
 [package.json-example]: https://gist.github.com/NewteqDeveloper/9a10a19b6c363d486aa67e2562b648a3
+[vscode-link]: https://code.visualstudio.com/
