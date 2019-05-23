@@ -19,18 +19,6 @@
       "dom"
     ],
     "paths": {
-      "ngx-local-storage": [
-        "dist/ngx-local-storage"
-      ],
-      "ngx-local-storage/*": [
-        "dist/ngx-local-storage/*"
-      ],
-      "test-lib": [
-        "dist/test-lib"
-      ],
-      "test-lib/*": [
-        "dist/test-lib/*"
-      ]
     }
   }
 }
