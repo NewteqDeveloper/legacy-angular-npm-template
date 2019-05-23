@@ -29,8 +29,8 @@ To see an example of a `package.json` you can find one [here][package.json-examp
 
 ## Publishing To NPM
 
-> You need to have a npm account in order to publish to npm
-> Make sure to run `npm login` first before continuing
+> You need to have a npm account in order to publish to npm.
+> Make sure to run `npm login` first before continuing.
 > You will login with your NPM details and this will be remembered on your computer until you logout.
 
 Once you are happy with the library and want to publish the package to NPM you'll need to do the following:
